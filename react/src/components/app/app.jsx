@@ -12,10 +12,10 @@ const App = () => (
     <div>
       <header className="header">
         <div className="top-menu">
-          <LinkButton to="/" label={'Главная'} />
-          <LinkButton to="/profile" label={'Профиль'} />
-          <LinkButton to="/login" label={'Логин'} />
-          <LinkButton to="/kvazavr" label={'Не найдено'} />
+          <LinkButton to="/" label={'Home'} />
+          <LinkButton to="/profile" label={'Profile'} />
+          <LinkButton to="/login" label={'Login'} />
+          <LinkButton to="/kvazavr" label={'Not Found'} />
         </div>
       </header>
       <div className="content">

@@ -18,7 +18,7 @@ export function logIn(params, next) {
       dispatch({
         type: LOG_IN_FAILURE,
         payload: {
-          errorMessage: 'Имя пользователя или пароль некорректны',
+          errorMessage: 'Login was unsuccessful and failed',
         },
         error: true,
       })

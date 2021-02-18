@@ -4,8 +4,8 @@ import PropTypes from 'prop-types'
 const Profile = ({ user }) => {
   return (
     <React.Fragment>
-      <h2>Профиль</h2>
-      <p>Вас зовут: {user.name}</p>
+      <h2>Profile</h2>
+      <p>User Name: {user.name}</p>
     </React.Fragment>
   )
 }

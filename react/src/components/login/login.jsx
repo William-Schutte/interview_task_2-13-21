@@ -51,14 +51,14 @@ class Login extends PureComponent {
             data-field-name={'userName'}
             type={'text'}
             onChange={this.handleChange}
-            placeholder={'Имя'}
+            placeholder={'User'}
             value={userName}
           />
           <input
             data-field-name={'password'}
             type={'text'}
             onChange={this.handleChange}
-            placeholder={'Пароль'}
+            placeholder={'Pass'}
             value={password}
           />
           <button type="submit">Log in</button>
